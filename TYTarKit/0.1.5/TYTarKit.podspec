@@ -11,5 +11,4 @@ Pod::Spec.new do |s|
   s.static_framework = true
   s.ios.deployment_target    = '6.0'
   s.ios.vendored_libraries = 'ios/*.a'
-  s.ios.source_files = 'Headers/**/*.h'
 end
