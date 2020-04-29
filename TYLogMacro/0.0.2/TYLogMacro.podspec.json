@@ -1,0 +1,19 @@
+{
+    "name": "TYLogMacro",
+    "version": "0.0.2",
+    "summary": "A short description of TYLogMacro.",
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/0xlan/TYLogMacro",
+    "license": "none",
+    "authors": {
+        "0xlan": "lanvsblue@163.com"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYLogMacro-0.0.2.zip",
+        "type": "zip"
+    },
+    "platforms": {
+        "ios": "9.0"
+    },
+    "vendored_libraries": "TYLogMacro-0.0.2/libTYLogMacro.a"
+}
