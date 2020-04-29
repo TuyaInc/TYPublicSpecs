@@ -1,0 +1,19 @@
+{
+    "name": "TYUrlPredefinedExternal",
+    "version": "0.2.41",
+    "summary": "\u6d82\u9e26\u516c\u5f00\u77ed\u94fe\u7ec4\u4ef6",
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://registry.code.tuya-inc.top/tuyaIOS/TYUrlPredefinedExternal",
+    "license": "none",
+    "authors": {
+        "ci_client": "ci-client-platform@tuya.com"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYUrlPredefinedExternal-0.2.41.zip",
+        "type": "zip"
+    },
+    "platforms": {
+        "ios": "8.0"
+    },
+    "vendored_libraries": "TYUrlPredefinedExternal-0.2.41/libTYUrlPredefinedExternal.a"
+}
