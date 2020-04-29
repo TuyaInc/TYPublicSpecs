@@ -1,0 +1,25 @@
+{
+    "name": "TYNavigationController",
+    "version": "1.10.1",
+    "summary": "A NavigationController component from TuyaInc",
+    "license": "none",
+    "homepage": "https://code.registry.wgine.com/tuyaIOS/TYNavigationController",
+    "authors": {
+        "TuyaInc": "https://www.tuya.com"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYNavigationController-1.10.1.zip",
+        "type": "zip"
+    },
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "TYNavigationController-1.10.1-rc.1/Assets/*.{png,xib,plist,xcassets,bundle}"
+    ],
+    "frameworks": "UIKit",
+    "dependencies": {
+        "TYUIKit": []
+    },
+    "vendored_libraries": "TYNavigationController-1.10.1-rc.1/libTYNavigationController.a"
+}
