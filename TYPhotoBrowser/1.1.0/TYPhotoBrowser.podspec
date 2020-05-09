@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target    = '9.0'
   s.ios.vendored_libraries = 'ios/*.a'
   s.dependency 'TYUIKit'
-  s.dependency 'SDWebImage', '~> 4.4.0'
+  s.dependency 'SDWebImage'
   s.dependency 'TYEncryptImage'
 end
