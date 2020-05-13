@@ -3,8 +3,8 @@ Pod::Spec.new do |s|
   s.version = "5.22.49"
   s.summary = "Tuya Smart Panel React-Native API"
   s.license = "none"
-  s.authors = {"tuya"=>"tuya@tuya.com"}
-  s.homepage = "https://registry.code.tuya-inc.top/tuyarnplugin/tuyarnapi"
+  s.authors = { 'TuyaInc' => 'https://www.tuya.com' }
+  s.homepage = 'https://github.com/TuyaInc'
   s.description = "Tuya Smart Panel React-Native API"
   s.source = { :http => "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/sdk/ios/#{s.name}-#{s.version}.zip", :type => "zip" }
   s.static_framework = true
