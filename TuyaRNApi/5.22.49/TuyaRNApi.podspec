@@ -19,16 +19,16 @@ Pod::Spec.new do |s|
   
   s.subspec 'Basic' do |basic|
     basic.dependency 'TuyaRNApi/Core'
-    basic.dependency 'TuyaRNApiBasic'
+    basic.dependency 'TuyaRNApiBasic', "#{s.version}"
   end
 
   s.subspec 'IPC' do |basic|
     basic.dependency 'TuyaRNApi/Core'
-    basic.dependency 'TuyaRNApiIPC'
+    basic.dependency 'TuyaRNApiIPC', "#{s.version}"
   end
 
   s.subspec 'Sweeper' do |sweeper|
     sweeper.dependency 'TuyaRNApi/Core'
-    sweeper.dependency 'TuyaRNApiSweeper'
+    sweeper.dependency 'TuyaRNApiSweeper', "#{s.version}"
   end
 end
