@@ -12,5 +12,8 @@ Pod::Spec.new do |s|
   s.dependency 'react-native-maps'
   s.dependency 'rn-fetch-blob'
   s.dependency 'RNSVG'
+  s.dependency 'react-native-image-picker'
+  s.dependency 'react-native-video'
+  s.dependency 'RNViewShot'
 
 end
