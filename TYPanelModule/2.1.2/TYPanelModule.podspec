@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.dependency 'TuyaSmartBLEMeshKit'
   s.dependency 'TuyaSmartSceneKit'
 
-  s.dependency 'TYReactNative'
+  s.dependency 'TYReactNative', '0.2.6'
 
   s.dependency 'TYModuleManager'
   s.dependency 'TYModuleServices'
@@ -27,6 +27,6 @@ Pod::Spec.new do |s|
   s.dependency 'TYAlertPickerComponent'
   s.dependency 'DACircularProgress'
   s.dependency 'TYPanelContext'
-  s.dependency 'TuyaRNApi/Core'
+  s.dependency 'TuyaRNApi/Core', '5.22.48'
   s.dependency 'TYPanelBundleManager'
 end
