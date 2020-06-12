@@ -24,6 +24,7 @@ Pod::Spec.new do |s|
   s.dependency 'TheAmazingAudioEngine'
   s.dependency 'TZImagePickerController'
   s.dependency 'TYBluetooth'
+  s.dependency 'TYBluetoothUtils'
   s.dependency 'TuyaSmartActivatorKit'
   s.dependency 'TuyaSmartDeviceKit'
   s.dependency 'TuyaSmartBLEMeshKit'
