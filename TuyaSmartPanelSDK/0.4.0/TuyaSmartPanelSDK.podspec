@@ -14,7 +14,8 @@ Pod::Spec.new do |s|
   s.dependency 'TYPanelModule', '2.1.2'
   s.dependency 'TYTimerModule'
   s.dependency 'TYLanguageBundleRegister'
-  s.dependency 'TuyaRNApi/Basic'
+  s.dependency 'TuyaRNApi', '5.22.48'
+  s.dependency 'TuyaRNApi/Basic', '5.22.48'
   # SDK
   s.dependency 'TuyaSmartDeviceKit'
   s.dependency 'TuyaSmartBLEKit'
