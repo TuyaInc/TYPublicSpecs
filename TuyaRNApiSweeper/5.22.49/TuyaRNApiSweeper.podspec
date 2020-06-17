@@ -10,7 +10,8 @@ Pod::Spec.new do |s|
   s.static_framework = true
   s.ios.deployment_target    = '9.0'
   s.vendored_libraries = 'ios/*.a'
-
+  s.resources = ['Assets/*.{bundle}']
+  
   s.dependency 'React'
   s.dependency 'TYPanelContext'
   s.dependency 'TYPanelSweeperUtil'
